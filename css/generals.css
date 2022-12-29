@@ -37,6 +37,7 @@
     -
 ---06 BORDER RADIUS
     Default: 9px;
+    Second-usage: 11px;
     
 ---07 WHITE SPACES  
 
@@ -125,7 +126,7 @@ body {
 
   /* The transition properity on the original state to apply smooth animation */
 
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -151,6 +152,29 @@ body {
 
   box-shadow: inset 0 0 0 3px #fff;
 }
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+.center-text {
+  text-align: center;
+}
 .margin-right-sm {
   margin-right: 1.3rem !important;
+}
+.maring-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+strong {
+  font-weight: 500;
 }
