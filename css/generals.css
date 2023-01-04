@@ -119,6 +119,7 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+.btn,
 .btn:visited,
 .btn:link {
   display: inline-block;
@@ -127,6 +128,10 @@ body {
   padding: 1.6rem 3.2rem;
   text-decoration: none;
   border-radius: 8px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   /* The transition properity on the original state to apply smooth animation */
 
@@ -156,6 +161,17 @@ body {
 
   box-shadow: inset 0 0 0 3px #fff;
 }
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
 .link:link,
 .link:visited {
   display: inline-block;
@@ -181,4 +197,8 @@ body {
 }
 strong {
   font-weight: 500;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(207, 113, 31, 0.5);
 }
