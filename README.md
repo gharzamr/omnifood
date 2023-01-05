@@ -1,4 +1,4 @@
-# omnifood
+# Omnifood
 
 First html/css application
 
